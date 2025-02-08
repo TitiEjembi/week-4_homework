@@ -1,4 +1,4 @@
-file_hand =open('pelican.text', 'a')
+file_hand =open('pelican.txt', 'a')
 # file_hand is the file handle, which help to add functions to the file
 # open function helps to Open file and return a stream
 # 'a' means open for writing, appending to the end of the file if it exists
@@ -16,4 +16,4 @@ lines = ["He can take in his beak,\n" , "Enough food for a week,\n", "But I'm da
 output = file_hand.writelines(lines)
 print(output)
 # pelican .txt file is created and all the lines added through the .write method added to
-# file handle, add the text to the pelican.text file
+# file handle, add the text to the pelican.txt file
