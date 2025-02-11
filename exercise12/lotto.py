@@ -28,3 +28,5 @@ print(lotto_nums)
 # tried to automate the process to get same results for any starting
 # and ending numbers and range of numbers
 
+random.sample
+
