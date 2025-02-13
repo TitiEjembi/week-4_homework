@@ -1,9 +1,10 @@
 import random
 # random variable generator
 
+lotto_ticket = set()
 for i in range(6):
-    num =random.randint(1,50)
-    print(num)
+    lotto_ticket.add(random.randint(1,50))
+    print(lotto_ticket)
 # tried to create a for loop to iterate over the elements of the sequence of numbers
 # range created to have fix the numbers of attempts to  return a new object
 # used randint method on random function to generate random integer with a start and end point provided
